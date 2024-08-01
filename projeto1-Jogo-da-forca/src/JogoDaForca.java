@@ -102,7 +102,7 @@ public class JogoDaForca {
 				if (palavraSorteada[i].equals(letraMaiuscula)) {
 					this.acertos += 1;
 					this.palavraAdivinhada.set(i, letraMaiuscula);
-					System.out.println(historicoLetras);
+					
 					this.ocorrencias.add(i);
 				}
 				
